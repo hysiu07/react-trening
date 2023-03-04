@@ -1,0 +1,19 @@
+.clock {
+	margin: 0 auto;
+}
+h4 {
+	display: inline-block;
+}
+span {
+    text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: red;
+    transition: all .3s;
+}
+span:hover {
+	text-decoration: underline;
+    color: lightcoral;
+}

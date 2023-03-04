@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid royalblue;
+	width: 300px;
+	margin: 10px 0;
+}
+.input {
+	margin: 10px auto;
+	width: 80%;
+}
