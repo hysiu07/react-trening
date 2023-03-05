@@ -96,7 +96,7 @@ class TextChild extends Component {
 				<p className='name'>Moje imię to : {this.props.name}</p>
 				<p className='last-name'>A nazwisko to : {this.state.lastName}</p>
 				<p className='number-user'>
-					Numer user:
+					Number user:
 					<NumberUser userId={this.state.numberUser} />
 				</p>
 				<p>Random Number: {randomNumber}</p>

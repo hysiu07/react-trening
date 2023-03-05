@@ -10,17 +10,17 @@ const ClockFuncional = (props) => {
       setDate(new Date())
     }
 
-    useEffect(() => {
-        let timerId = setInterval(()=>{
-            tick()
-        },1000)
-        console.log('montaz i update');
+    // useEffect(() => {
+    //     let timerId = setInterval(()=>{
+    //         tick()
+    //     },1000)
+    //     console.log('montaz i update');
         
-        return(()=>{
-            clearInterval(timerId)
-            console.log('odmontowanie');
-        })
-    },[date])
+    //     return(()=>{
+    //         clearInterval(timerId)
+    //         console.log('odmontowanie');
+    //     })
+    // },[date])
 
     
  

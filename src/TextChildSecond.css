@@ -1,0 +1,7 @@
+.reset {
+    margin: 0 auto;
+    margin-bottom: 10px;
+	padding: 5px 10px;
+	width: 85%;
+    cursor: pointer;
+}
